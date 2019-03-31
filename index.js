@@ -12,8 +12,10 @@ const port = process.env.PORT || 443,
     });
 bot.setWebHook(externalUrl + ':443/bot' + token);
 bot.on('message',(msg) =>{
-    if(const chatId = msg.text)
+    const chatId = msg.chat.id
+    const message=msg.text
+    if(text == hi)
     {bot.sendMessage(chatId,'hello')}
     else{
-        bot.sendMessage(chatid,'received your message')}
+        bot.sendMessage(chatId,'received your message')}
 })
