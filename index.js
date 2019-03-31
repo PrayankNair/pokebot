@@ -16,5 +16,5 @@ bot.on('message',(msg) =>{
     const chatId = msg.text
     bot.sendMessage(chatId,'hello')}
     else{
-        bot.sendMessage(chatid,'received your message')
+        bot.sendMessage(chatid,'received your message')}
 })
