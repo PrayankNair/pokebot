@@ -16,6 +16,6 @@ bot.on('message',(msg) =>{
     const message=msg.text
     if(message == 'hi')
     {bot.sendMessage(chatId,'hello')}
-    else{
-        bot.sendMessage(chatId,'received your message')}
+    else
+    {bot.sendMessage(chatId,'shut the fuck up')}
 })
